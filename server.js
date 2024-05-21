@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
   console.log("RES: ", res);
 
   res.statusCode = 200;
-  res.setHeader("Content-Type", "text/css");
+  res.setHeader("Content-Type", "text/html");
   res.end(responseBody);
 });
 
